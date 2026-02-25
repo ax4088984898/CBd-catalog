@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBD 產品目錄</title>
+    <meta name="description" content="CBD產品批發目錄">
+    <meta name="theme-color" content="#667eea">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5f5f5; padding: 20px; }
+        .header { text-align: center; padding: 30px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 20px; margin-bottom: 30px; }
+        .header h1 { font-size: 28px; margin-bottom: 10px; }
+        .contact-bar { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-bottom: 30px; }
+        .contact-btn { padding: 12px 20px; background: white; border: none; border-radius: 25px; font-size: 14px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .price-update { text-align: center; padding: 15px; background: #fff3cd; color: #856404; border-radius: 10px; margin-bottom: 20px; font-size: 14px; }
+        .products { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; max-width: 1200px; margin: 0 auto; }
+        .product-card { background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 2px 15px rgba(0,0,0,0.08); }
+        .product-image { width: 100%; height: 250px; object-fit: cover; background: #eee; }
+        .product-info { padding: 15px; }
+        .product-name { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+        .product-desc { font-size: 13px; color: #666; margin-bottom: 10px; }
+        .product-price { font-size: 22px; font-weight: 700; color: #667eea; }
+        .footer { text-align: center; padding: 30px; color: #999; font-size: 14px; }
+        .install-btn { display: none; position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #667eea; color: white; padding: 15px 30px; border-radius: 30px; border: none; font-size: 16px; cursor: pointer; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌿 CBD 產品目錄</h1>
+        <p>高質量CBD產品批發</p>
+    </div>
+
+    <div class="contact-bar">
+        <a href="https://wa.me/15106348131" class="contact-btn">📱 WhatsApp</a>
+        <a href="https://www.instagram.com/" class="contact-btn">📸 Instagram</a>
+        <a href="mailto:ax4088984898@hotmail.com" class="contact-btn">✉️ Email</a>
+    </div>
+
+    <div class="price-update">
+        📅 最後更新: 2026年2月25日 - 下單前請聯絡確認價錢！
+    </div>
+
+    <div class="products">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="product1.jpg" alt="Hemp Wraps Blueberry" class="product-image">
+            <div class="product-info">
+                <div class="product-name">🫐 Highboren Hemp Wraps - Blueberry</div>
+                <div class="product-desc">2支裝</div>
+                <div class="product-price">聯絡查詢</div>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="product2.jpg" alt="Hemp Wraps Flavors Pack" class="product-image">
+            <div class="product-info">
+                <div class="product-name">🍇 Highboren Hemp Wraps - Flavors Pack</div>
+                <div class="product-desc">藍莓、芒果、提子</div>
+                <div class="product-price">聯絡查詢</div>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="product3.jpg" alt="Hemp Wraps 3 Flavors" class="product-image">
+            <div class="product-info">
+                <div class="product-name">🫐 Highboren Hemp Wraps - 3 Flavors</div>
+                <div class="product-desc">Blueberry, Mango, Grape</div>
+                <div class="product-price">聯絡查詢</div>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="product4.jpg" alt="It's Complicated CBD Preroll" class="product-image">
+            <div class="product-info">
+                <div class="product-name">💨 It's Complicated - CBD Preroll</div>
+                <div class="product-desc">2g CBD</div>
+                <div class="product-price">聯絡查詢</div>
+            </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <img src="product5.jpg" alt="It's Complicated Blue Razz" class="product-image">
+            <div class="product-info">
+                <div class="product-name">🫧 It's Complicated - Blue Razz</div>
+                <div class="product-desc">2g CBD Preroll</div>
+                <div class="product-price">聯絡查詢</div>
+            </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <img src="product6.jpg" alt="It's Complicated Pink Lemonade" class="product-image">
+            <div class="product-info">
+                <div class="product-name">🍋 It's Complicated - Pink Lemonade</div>
+                <div class="product-desc">2g CBD Preroll</div>
+                <div class="product-price">聯絡查詢</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>💬 下單請 WhatsApp / IG DM / Email 聯絡</p>
+    </div>
+
+    <button class="install-btn" id="installBtn">📲 安裝App</button>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js');
+        }
+
+        let deferredPrompt;
+        const installBtn = document.getElementById('installBtn');
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            installBtn.style.display = 'block';
+        });
+
+        installBtn.addEventListener('click', async () => {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                const { outcome } = await deferredPrompt.userChoice;
+                deferredPrompt = null;
+                installBtn.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "CBD 產品目錄",
+  "short_name": "CBD Catalog",
+  "description": "CBD產品批發目錄",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
